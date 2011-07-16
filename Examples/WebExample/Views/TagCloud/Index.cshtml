@@ -1,0 +1,27 @@
+﻿@model  IEnumerable<Sparc.TagCloud.TagCloudTag>
+
+@{
+    ViewBag.Title = "Chesterton Tag Cloud";
+}
+
+<h2>Father Brown Tag Cloud</h2>
+
+<div class="tag-cloud">
+  @foreach (var tag in Model) {
+    <span class="tag kind-@tag.Category">@tag.Text</span>
+  }
+</div>
+
+<script type="text/javascript">
+  $(document).ready(function onPageLoad() {
+    var animatedProperties = {
+      paddingLeft: '50px',
+      paddingTop: '75px',
+      paddingBottom: '125px',
+      paddingRight: '150px',
+      opacity: 1
+    };
+
+    $('.tag-cloud').animate(animatedProperties, 500);
+  }); 
+</script>

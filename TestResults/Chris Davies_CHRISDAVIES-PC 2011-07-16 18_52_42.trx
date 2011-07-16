@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="b0395432-9cf6-446a-b037-8be5dfc68c84" name="Chris Davies@CHRISDAVIES-PC 2011-07-16 18:52:42" runUser="ChrisDavies-PC\Chris Davies" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="6ef6de68-6238-4e2a-ac37-3e8599ccc423">
+    <Deployment runDeploymentRoot="Chris Davies_CHRISDAVIES-PC 2011-07-16 18_52_42">
+      <DeploymentItem filename="C:\Dev\Prototypes\TagCloud\TagCloud.Tests\packages\Should.1.1.12.0\lib\Should.dll" />
+      <DeploymentItem filename="C:\Dev\Prototypes\TagCloud\TagCloud\bin\Debug\Sparc.TagCloud.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2011-07-16T18:52:42.4454235-04:00" queuing="2011-07-16T18:52:45.3775912-04:00" start="2011-07-16T18:52:45.4825972-04:00" finish="2011-07-16T18:52:48.5497727-04:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="11" executed="11" passed="11" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="There_should_be_a_max_result_size" storage="c:\dev\prototypes\tagcloud\tagcloud.tests\bin\debug\tagcloud.tests.dll" id="67b5403e-6edb-85ee-deaa-eaae6bf9ace4">
+      <Execution id="02d0efbb-1c2e-47cd-acaf-d5ebc21215dd" />
+      <TestMethod codeBase="C:/Dev/Prototypes/TagCloud/TagCloud.Tests/bin/Debug/TagCloud.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TagCloud.Tests.TagCloudAnalyzerTests, TagCloud.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="There_should_be_a_max_result_size" />
+    </UnitTest>
+    <UnitTest name="Common_words_are_ignored" storage="c:\dev\prototypes\tagcloud\tagcloud.tests\bin\debug\tagcloud.tests.dll" id="435ed1ea-368a-a81e-16f0-bb319ba7ce77">
+      <Execution id="c3db312b-e704-438d-b25d-6f676328457a" />
+      <TestMethod codeBase="C:/Dev/Prototypes/TagCloud/TagCloud.Tests/bin/Debug/TagCloud.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TagCloud.Tests.TagCloudAnalyzerTests, TagCloud.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Common_words_are_ignored" />
+    </UnitTest>
+    <UnitTest name="Shuffle_should_work" storage="c:\dev\prototypes\tagcloud\tagcloud.tests\bin\debug\tagcloud.tests.dll" id="9ba7e95f-c6de-44b7-fb4b-31203e0ba5af">
+      <Execution id="8251efc5-f274-4ae4-ad4f-514389502287" />
+      <TestMethod codeBase="C:/Dev/Prototypes/TagCloud/TagCloud.Tests/bin/Debug/TagCloud.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TagCloud.Tests.TagCloudAnalyzerTests, TagCloud.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Shuffle_should_work" />
+    </UnitTest>
+    <UnitTest name="Contractions_are_taken" storage="c:\dev\prototypes\tagcloud\tagcloud.tests\bin\debug\tagcloud.tests.dll" id="a45d524a-2cc4-67ed-ea94-631e4060dd71">
+      <Execution id="e6ab64e3-8ac8-4279-afa1-8fde02165860" />
+      <TestMethod codeBase="C:/Dev/Prototypes/TagCloud/TagCloud.Tests/bin/Debug/TagCloud.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TagCloud.Tests.TagCloudAnalyzerTests, TagCloud.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Contractions_are_taken" />
+    </UnitTest>
+    <UnitTest name="Repeated_words_are_counted" storage="c:\dev\prototypes\tagcloud\tagcloud.tests\bin\debug\tagcloud.tests.dll" id="e452f3b1-7fb6-7d67-3f4b-9978ebf11784">
+      <Execution id="d5609ed5-9749-42aa-a10f-a59bea7c3ba1" />
+      <TestMethod codeBase="C:/Dev/Prototypes/TagCloud/TagCloud.Tests/bin/Debug/TagCloud.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TagCloud.Tests.TagCloudAnalyzerTests, TagCloud.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Repeated_words_are_counted" />
+    </UnitTest>
+    <UnitTest name="Results_are_sorted" storage="c:\dev\prototypes\tagcloud\tagcloud.tests\bin\debug\tagcloud.tests.dll" id="b7d07dbb-1aa3-6a9e-b890-6f31eb3bae69">
+      <Execution id="6cfb24ec-39f4-42c6-830a-eb3534d90957" />
+      <TestMethod codeBase="C:/Dev/Prototypes/TagCloud/TagCloud.Tests/bin/Debug/TagCloud.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TagCloud.Tests.TagCloudAnalyzerTests, TagCloud.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Results_are_sorted" />
+    </UnitTest>
+    <UnitTest name="Weird_chars_and_punctuation_are_not_counted" storage="c:\dev\prototypes\tagcloud\tagcloud.tests\bin\debug\tagcloud.tests.dll" id="46e8c449-3820-0a6c-5ac5-31343015b8b5">
+      <Execution id="a13de4a6-077b-4b3e-94f3-20dd6ebb5d2e" />
+      <TestMethod codeBase="C:/Dev/Prototypes/TagCloud/TagCloud.Tests/bin/Debug/TagCloud.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TagCloud.Tests.TagCloudAnalyzerTests, TagCloud.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Weird_chars_and_punctuation_are_not_counted" />
+    </UnitTest>
+    <UnitTest name="Numbers_are_counted" storage="c:\dev\prototypes\tagcloud\tagcloud.tests\bin\debug\tagcloud.tests.dll" id="c7221cc5-8c23-441a-a8e2-6f79aeaa08f2">
+      <Execution id="91eef731-3035-44b1-94db-ce80372d8452" />
+      <TestMethod codeBase="C:/Dev/Prototypes/TagCloud/TagCloud.Tests/bin/Debug/TagCloud.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TagCloud.Tests.TagCloudAnalyzerTests, TagCloud.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Numbers_are_counted" />
+    </UnitTest>
+    <UnitTest name="Words_are_counted_across_multiple_phrases" storage="c:\dev\prototypes\tagcloud\tagcloud.tests\bin\debug\tagcloud.tests.dll" id="8936cefc-f3d9-2021-57d1-de6aa580c3d3">
+      <Execution id="d6aed6ff-902e-4f6f-b12a-1a333b9c9fa1" />
+      <TestMethod codeBase="C:/Dev/Prototypes/TagCloud/TagCloud.Tests/bin/Debug/TagCloud.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TagCloud.Tests.TagCloudAnalyzerTests, TagCloud.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Words_are_counted_across_multiple_phrases" />
+    </UnitTest>
+    <UnitTest name="Case_is_ignored" storage="c:\dev\prototypes\tagcloud\tagcloud.tests\bin\debug\tagcloud.tests.dll" id="54f36480-7586-51b5-e600-e3809a83dfd9">
+      <Execution id="20fc7b5b-7296-4cf9-8039-50d4bda1ce56" />
+      <TestMethod codeBase="C:/Dev/Prototypes/TagCloud/TagCloud.Tests/bin/Debug/TagCloud.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TagCloud.Tests.TagCloudAnalyzerTests, TagCloud.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Case_is_ignored" />
+    </UnitTest>
+    <UnitTest name="Words_are_lemmatized" storage="c:\dev\prototypes\tagcloud\tagcloud.tests\bin\debug\tagcloud.tests.dll" id="48dcd061-428d-86d2-ed17-20d5c8be435a">
+      <Execution id="181ef0ed-d05b-49a2-9cbe-e562755e6103" />
+      <TestMethod codeBase="C:/Dev/Prototypes/TagCloud/TagCloud.Tests/bin/Debug/TagCloud.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TagCloud.Tests.TagCloudAnalyzerTests, TagCloud.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Words_are_lemmatized" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="9ba7e95f-c6de-44b7-fb4b-31203e0ba5af" executionId="8251efc5-f274-4ae4-ad4f-514389502287" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="67b5403e-6edb-85ee-deaa-eaae6bf9ace4" executionId="02d0efbb-1c2e-47cd-acaf-d5ebc21215dd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="435ed1ea-368a-a81e-16f0-bb319ba7ce77" executionId="c3db312b-e704-438d-b25d-6f676328457a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b7d07dbb-1aa3-6a9e-b890-6f31eb3bae69" executionId="6cfb24ec-39f4-42c6-830a-eb3534d90957" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="48dcd061-428d-86d2-ed17-20d5c8be435a" executionId="181ef0ed-d05b-49a2-9cbe-e562755e6103" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a45d524a-2cc4-67ed-ea94-631e4060dd71" executionId="e6ab64e3-8ac8-4279-afa1-8fde02165860" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8936cefc-f3d9-2021-57d1-de6aa580c3d3" executionId="d6aed6ff-902e-4f6f-b12a-1a333b9c9fa1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e452f3b1-7fb6-7d67-3f4b-9978ebf11784" executionId="d5609ed5-9749-42aa-a10f-a59bea7c3ba1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="54f36480-7586-51b5-e600-e3809a83dfd9" executionId="20fc7b5b-7296-4cf9-8039-50d4bda1ce56" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="46e8c449-3820-0a6c-5ac5-31343015b8b5" executionId="a13de4a6-077b-4b3e-94f3-20dd6ebb5d2e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c7221cc5-8c23-441a-a8e2-6f79aeaa08f2" executionId="91eef731-3035-44b1-94db-ce80372d8452" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="8251efc5-f274-4ae4-ad4f-514389502287" testId="9ba7e95f-c6de-44b7-fb4b-31203e0ba5af" testName="Shuffle_should_work" computerName="CHRISDAVIES-PC" duration="00:00:00.6481165" startTime="2011-07-16T18:52:45.5346002-04:00" endTime="2011-07-16T18:52:48.2087532-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8251efc5-f274-4ae4-ad4f-514389502287">
+    </UnitTestResult>
+    <UnitTestResult executionId="02d0efbb-1c2e-47cd-acaf-d5ebc21215dd" testId="67b5403e-6edb-85ee-deaa-eaae6bf9ace4" testName="There_should_be_a_max_result_size" computerName="CHRISDAVIES-PC" duration="00:00:00.0030167" startTime="2011-07-16T18:52:48.2307544-04:00" endTime="2011-07-16T18:52:48.2467553-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="02d0efbb-1c2e-47cd-acaf-d5ebc21215dd">
+    </UnitTestResult>
+    <UnitTestResult executionId="c3db312b-e704-438d-b25d-6f676328457a" testId="435ed1ea-368a-a81e-16f0-bb319ba7ce77" testName="Common_words_are_ignored" computerName="CHRISDAVIES-PC" duration="00:00:00.0074014" startTime="2011-07-16T18:52:48.2547558-04:00" endTime="2011-07-16T18:52:48.2747569-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c3db312b-e704-438d-b25d-6f676328457a">
+    </UnitTestResult>
+    <UnitTestResult executionId="6cfb24ec-39f4-42c6-830a-eb3534d90957" testId="b7d07dbb-1aa3-6a9e-b890-6f31eb3bae69" testName="Results_are_sorted" computerName="CHRISDAVIES-PC" duration="00:00:00.0007580" startTime="2011-07-16T18:52:48.2817573-04:00" endTime="2011-07-16T18:52:48.2937580-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6cfb24ec-39f4-42c6-830a-eb3534d90957">
+    </UnitTestResult>
+    <UnitTestResult executionId="181ef0ed-d05b-49a2-9cbe-e562755e6103" testId="48dcd061-428d-86d2-ed17-20d5c8be435a" testName="Words_are_lemmatized" computerName="CHRISDAVIES-PC" duration="00:00:00.0004340" startTime="2011-07-16T18:52:48.2987583-04:00" endTime="2011-07-16T18:52:48.3117591-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="181ef0ed-d05b-49a2-9cbe-e562755e6103">
+    </UnitTestResult>
+    <UnitTestResult executionId="e6ab64e3-8ac8-4279-afa1-8fde02165860" testId="a45d524a-2cc4-67ed-ea94-631e4060dd71" testName="Contractions_are_taken" computerName="CHRISDAVIES-PC" duration="00:00:00.0003973" startTime="2011-07-16T18:52:48.3217596-04:00" endTime="2011-07-16T18:52:48.3377605-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e6ab64e3-8ac8-4279-afa1-8fde02165860">
+    </UnitTestResult>
+    <UnitTestResult executionId="d6aed6ff-902e-4f6f-b12a-1a333b9c9fa1" testId="8936cefc-f3d9-2021-57d1-de6aa580c3d3" testName="Words_are_counted_across_multiple_phrases" computerName="CHRISDAVIES-PC" duration="00:00:00.0004388" startTime="2011-07-16T18:52:48.3477611-04:00" endTime="2011-07-16T18:52:48.3627620-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d6aed6ff-902e-4f6f-b12a-1a333b9c9fa1">
+    </UnitTestResult>
+    <UnitTestResult executionId="d5609ed5-9749-42aa-a10f-a59bea7c3ba1" testId="e452f3b1-7fb6-7d67-3f4b-9978ebf11784" testName="Repeated_words_are_counted" computerName="CHRISDAVIES-PC" duration="00:00:00.0003979" startTime="2011-07-16T18:52:48.3717625-04:00" endTime="2011-07-16T18:52:48.3887635-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d5609ed5-9749-42aa-a10f-a59bea7c3ba1">
+    </UnitTestResult>
+    <UnitTestResult executionId="20fc7b5b-7296-4cf9-8039-50d4bda1ce56" testId="54f36480-7586-51b5-e600-e3809a83dfd9" testName="Case_is_ignored" computerName="CHRISDAVIES-PC" duration="00:00:00.0004755" startTime="2011-07-16T18:52:48.3947638-04:00" endTime="2011-07-16T18:52:48.4097647-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="20fc7b5b-7296-4cf9-8039-50d4bda1ce56">
+    </UnitTestResult>
+    <UnitTestResult executionId="a13de4a6-077b-4b3e-94f3-20dd6ebb5d2e" testId="46e8c449-3820-0a6c-5ac5-31343015b8b5" testName="Weird_chars_and_punctuation_are_not_counted" computerName="CHRISDAVIES-PC" duration="00:00:00.0003292" startTime="2011-07-16T18:52:48.4167651-04:00" endTime="2011-07-16T18:52:48.4307659-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a13de4a6-077b-4b3e-94f3-20dd6ebb5d2e">
+    </UnitTestResult>
+    <UnitTestResult executionId="91eef731-3035-44b1-94db-ce80372d8452" testId="c7221cc5-8c23-441a-a8e2-6f79aeaa08f2" testName="Numbers_are_counted" computerName="CHRISDAVIES-PC" duration="00:00:00.0003280" startTime="2011-07-16T18:52:48.4387663-04:00" endTime="2011-07-16T18:52:48.4567674-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="91eef731-3035-44b1-94db-ce80372d8452">
+    </UnitTestResult>
+  </Results>
+</TestRun>

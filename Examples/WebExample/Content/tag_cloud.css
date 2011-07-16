@@ -1,0 +1,82 @@
+body
+{
+    font: 1em Arial, San-Serif;
+    color: #FFF;
+    background: #000;
+}
+
+.tag-cloud
+{
+    padding: 100px;
+    text-align: center;
+    opacity: 0;
+}
+
+.tag
+{
+    display: inline-block;
+    vertical-align: middle;
+    line-height: .75em;
+    margin: 0 .2em;
+}
+
+.tag.kind-0
+{
+    color: #E4BB37;
+    text-transform: lowercase;
+    font-size: 5em;
+}
+
+.tag.kind-1
+{
+    color: #E68D3A;
+    font-size: 3em;
+}
+
+.tag.kind-2
+{
+    color: #CA5C00;
+    font-size: 2.5em;
+}
+
+.tag.kind-3
+{
+    color: #38879C;
+    font-size: 2.25em;
+}
+
+.tag.kind-4
+{
+    color: #003F6E;
+    font-size: 2em;
+}
+
+.tag.kind-5
+{
+    color: #DDD;
+    font-size: 1.75em;
+}
+
+.tag.kind-6
+{
+    color: #E4BB37;
+    font-size: 1.5em;
+}
+
+.tag.kind-7
+{
+    color: #38879C;
+    font-size: 1.25em;
+}
+
+.tag.kind-8
+{
+    color: #CA5C00;
+    font-size: 1em;
+}
+
+.tag.kind-9
+{
+    color: #E5E5E5;
+    font-size: .8em;
+}

@@ -1,0 +1,12 @@
+﻿[Tt]est[Rr]esults/
+[Pp]ackages/
+[Oo]bj/
+[Bb]in/
+*.user
+*.vspscc
+*.vssscc
+deploy
+deploy/*
+*.suo
+*.cache
+*.old
