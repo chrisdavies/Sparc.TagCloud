@@ -9,17 +9,16 @@ The category is simply a mechanism for grouping tags.  The library defaults to 1
 
 ##Examples
 Below is a simple code example that analyzes a set of blogposts and returns a tag-cloud.
-```c#
-var analyzer = new TagCloudAnalyzer();
 
-// blogPosts is an IEnumerable<String>, loaded from
-// the database or whatevz.
-var tags = analyzer.ComputeTagCloud(blogPosts);
+   var analyzer = new TagCloudAnalyzer();
 
-// Shuffle the tags, if you like for a random
-// display
-tags = tags.Shuffle();
-```
+   // blogPosts is an IEnumerable<String>, loaded from
+   // the database or whatevz.
+   var tags = analyzer.ComputeTagCloud(blogPosts);
+
+   // Shuffle the tags, if you like for a random
+   // display
+   tags = tags.Shuffle();
 
 For more examples, including rendering a tag-cloud using ASP.NET MVC, look at the Examples folder in the source.
 
