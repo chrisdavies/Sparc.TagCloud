@@ -10,11 +10,8 @@ The category is simply a mechanism for grouping tags.  The library defaults to 1
 ##Examples
 Below is a simple code example that analyzes a set of blogposts and returns a tag-cloud.
 
-```python
-print 'bar'
-```
 
-```C#
+```csharp
 var analyzer = new TagCloudAnalyzer();
 
 // blogPosts is an IEnumerable<String>, loaded from
