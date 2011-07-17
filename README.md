@@ -26,5 +26,9 @@ tags = tags.Shuffle();
 
 For more examples, including rendering a tag-cloud using ASP.NET MVC, look at the Examples folder in the source.
 
+<img src="http://farm7.static.flickr.com/6023/5944228035_3bd57e8db2_b.jpg" alt="ASP.NET MVC Tag Cloud" />
+
+Image source: http://www.flickr.com/photos/89428839@N00/5944228035/
+
 ##License
 This is licenced under the "do whatever the hell you want with this, just don't pester me if your mods screw things up" license.
