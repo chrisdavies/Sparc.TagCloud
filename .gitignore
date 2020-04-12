@@ -10,3 +10,6 @@ deploy/*
 *.suo
 *.cache
 *.old
+
+.vs
+
