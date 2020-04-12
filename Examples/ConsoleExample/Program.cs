@@ -3,7 +3,7 @@ using System.IO;
 using System.Linq;
 using Sparc.TagCloud;
 
-namespace ConsoleExample.Core
+namespace ConsoleExample
 {
     class Program
     {

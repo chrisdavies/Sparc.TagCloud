@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TagCloud.Core", "TagCloud.C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TagCloud.Core.Tests", "TagCloud.Core.Tests\TagCloud.Core.Tests.csproj", "{CC9CC996-44FD-4039-9BAC-C77156D52853}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleExample.Core", "Examples\ConsoleExample.Core\ConsoleExample.Core.csproj", "{F89176EE-F47C-49AF-AF83-6B80E09117F3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleExample", "Examples\ConsoleExample\ConsoleExample.csproj", "{F89176EE-F47C-49AF-AF83-6B80E09117F3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

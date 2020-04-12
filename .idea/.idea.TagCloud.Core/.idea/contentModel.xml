@@ -17,13 +17,13 @@
     <e p="C:\Users\sean\AppData\Roaming\JetBrains\Rider2020.1\scratches" t="IncludeRecursive" />
     <e p="C:\Users\sean\dev\main\sparc.tagcloud.core" t="IncludeFlat">
       <e p=".git\info\exclude" t="IncludeRecursive" />
-      <e p="Examples\ConsoleExample.Core" t="IncludeRecursive">
+      <e p="Examples\ConsoleExample" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
-        <e p="ConsoleExample.Core.csproj" t="IncludeRecursive" />
+        <e p="ConsoleExample.csproj" t="IncludeRecursive" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="netcoreapp3.1" t="Include">
-              <e p="ConsoleExample.Core.AssemblyInfo.cs" t="Include" />
+              <e p="ConsoleExample.AssemblyInfo.cs" t="Include" />
             </e>
           </e>
         </e>
