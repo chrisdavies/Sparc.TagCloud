@@ -1,4 +1,6 @@
-﻿namespace TagCloud.Tests
+﻿using NUnit.Framework;
+
+namespace TagCloud.Tests
 {
     using System.Collections.Generic;
     using System.Linq;
@@ -6,13 +8,10 @@
     using Should;
     using Sparc.TagCloud;
 
-    /// <summary>
-    /// Summary description for UnitTest1
-    /// </summary>
-    [TestClass]
+    [TestFixture]
     public class TagCloudAnalyzerTests
     {
-        [TestMethod]
+        [Test]
         public void Shuffle_should_work()
         {
             var original = new string[] { "word1", "word2", "word3", "word4" };
@@ -24,12 +23,12 @@
             {
                 result = GetShuffledWords(original);
             }
-            
+
             original.ShouldNotEqual(result);
             original.ShouldEqual(result.OrderBy(s => s).ToArray());
         }
 
-        [TestMethod]
+        [Test]
         public void There_should_be_a_max_result_size()
         {
             var results = new TagCloudAnalyzer(new TagCloudSetting() { MaxCloudSize = 2 })
@@ -40,7 +39,7 @@
             results.Any(t => t.Text == "pant").ShouldBeTrue();
         }
 
-        [TestMethod]
+        [Test]
         public void Common_words_are_ignored()
         {
             var result = GetWords(new string[] {
@@ -52,7 +51,7 @@
             result.ContainsKey("square").ShouldBeTrue();
         }
 
-        [TestMethod]
+        [Test]
         public void Results_are_sorted()
         {
             var result = new TagCloudAnalyzer().ComputeTagCloud(new string[] {
@@ -62,7 +61,7 @@
             result.ShouldEqual(new string[] { "hi", "booger", "bum", "guy" });
         }
 
-        [TestMethod]
+        [Test]
         public void Words_are_lemmatized()
         {
             var result = GetWords(new string[] {
@@ -73,7 +72,7 @@
             result["kick"].ShouldEqual(2);
         }
 
-        [TestMethod]
+        [Test]
         public void Contractions_are_taken()
         {
             var result = GetWords(new string[] {
@@ -87,7 +86,7 @@
             result["can"].ShouldEqual(1);
         }
 
-        [TestMethod]
+        [Test]
         public void Words_are_counted_across_multiple_phrases()
         {
             var result = GetWords(new string[] {
@@ -103,7 +102,7 @@
         }
 
 
-        [TestMethod]
+        [Test]
         public void Repeated_words_are_counted()
         {
             var result = GetWords(new string[] {
@@ -113,7 +112,7 @@
             result["hello"].ShouldEqual(4);
         }
 
-        [TestMethod]
+        [Test]
         public void Case_is_ignored()
         {
             var result = GetWords(new string[] {
@@ -125,7 +124,7 @@
             result["world"].ShouldEqual(2);
         }
 
-        [TestMethod]
+        [Test]
         public void Weird_chars_and_punctuation_are_not_counted()
         {
             var result = GetWords(new string[] {
@@ -137,7 +136,7 @@
             result["world"].ShouldEqual(2);
         }
 
-        [TestMethod]
+        [Test]
         public void Numbers_are_counted()
         {
             var result = GetWords(new string[] {
