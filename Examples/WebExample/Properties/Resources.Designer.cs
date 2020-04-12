@@ -73,9 +73,9 @@ namespace WebExample.Properties {
         ///   sea, the boat touched Harwich and let loose a swarm of folk like flies,
         ///   among whom the man we must follow was by no mean [rest of string was truncated]&quot;;.
         /// </summary>
-        internal static string TagCloudInput {
+        internal static string CloudInput {
             get {
-                return ResourceManager.GetString("TagCloudInput", resourceCulture);
+                return ResourceManager.GetString("CloudInput", resourceCulture);
             }
         }
     }
