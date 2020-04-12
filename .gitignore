@@ -13,3 +13,4 @@ deploy/*
 
 .vs
 
+/.idea/.idea.TagCloud.Core/.idea/workspace.xml
