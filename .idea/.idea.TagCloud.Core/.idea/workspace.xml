@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="69008517-382a-4f73-b5c5-968024dc40fd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.TagCloud.Core/.idea/.idea.TagCloud.Core.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.TagCloud.Core/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.TagCloud.Core/.idea/contentModel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.TagCloud.Core/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.TagCloud.Core/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.TagCloud.Core/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.TagCloud.Core/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.TagCloud.Core/.idea/projectSettingsUpdater.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.TagCloud.Core/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.TagCloud.Core/riderModule.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Examples/ConsoleExample.Core/Sample_Text_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TagCloud.Core.Tests/TagCloudAnalyzerTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TagCloud.Core/Resources.resx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TagCloud.sln" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Examples/ConsoleExample/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TagCloud.Core/TagCloudSetting.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TagCloud.Core/Resources.Designer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TagCloud.Core.Tests/TagCloudAnalyzerTests.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Examples/ConsoleExample.Core/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TagCloud.Core/TagCloudAnalyzer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TagCloud/Properties/Resources.Designer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TagCloud.Core/Resources.resx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TagCloud/Properties/Resources.resx" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/TagCloud.Core/Class1.cs" />
+        <option value="$PROJECT_DIR$/TagCloud.Core/TagCloudAnalyzer.cs" />
+        <option value="$PROJECT_DIR$/TagCloud.Core/Resources.Designer.cs" />
+        <option value="$PROJECT_DIR$/TagCloud.Core/TagCloudSetting.cs" />
+        <option value="$PROJECT_DIR$/TagCloud.Core.Tests/UnitTest1.cs" />
+        <option value="$PROJECT_DIR$/TagCloud.Core.Tests/TagCloudAnalyzerTests.cs" />
+        <option value="$PROJECT_DIR$/Examples/ConsoleExample.Core/Program.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1aQjFwxqsQPbfye7T71t98lYDoi" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Rider.SolutionExplorerActivator" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Functions" />
+  </component>
+  <component name="RunManager" selected=".NET Project.ConsoleExample">
+    <list>
+      <item itemvalue=".NET Project.ConsoleExample" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="69008517-382a-4f73-b5c5-968024dc40fd" name="Default Changelist" comment="" />
+      <created>1586674611957</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586674611957</updated>
+      <workItem from="1586674628115" duration="1285000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1501" y="778" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586675912910">
+      <screen x="0" y="0" width="3840" height="2120" />
+    </state>
+    <state x="1501" y="778" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.3840.2120@0.0.3840.2120" timestamp="1586675912910" />
+    <state x="1639" y="855" key="Rider.ProjectTemplateDialog.Size" timestamp="1586675761994">
+      <screen x="0" y="0" width="3840" height="2120" />
+    </state>
+    <state x="1639" y="855" key="Rider.ProjectTemplateDialog.Size/0.0.3840.2120@0.0.3840.2120" timestamp="1586675761994" />
+  </component>
+</project>
