@@ -1,0 +1,35 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<h2>Father Brown Tag Cloud</h2>
+<br/>
+<br/>
+<canvas id="canvas" width="1000" height="500"></canvas>
+
+<script type="text/javascript">
+    //EG: let list = [['foo', 12], ['bar', 6]]
+    let list = [
+        @Html.Raw(string.Join(", ", Model.Tags.Select(x => $"['{x.Text}', {x.Category}]")))
+    ]
+
+    let options = {
+      list: list,
+      click: function (item) { window.alert('You clicked on ' + item[0] + ' which has a weight of ' + item[1]); },
+      gridSize: Math.round(16 * $('#canvas').width() / 1024),
+      weightFactor: function (size) {
+        return Math.pow(size, 2.3) * $('#canvas').width() / 1024;
+      },
+      fontFamily: 'Times, serif',
+      color: function (word, weight) {
+        return (weight === 12) ? 'cornflowerblue' : 'cornflowerblue';
+      },
+      rotateRatio: 0.5,
+      rotationSteps: 2,
+      backgroundColor: 'white'
+    }
+
+    WordCloud(document.getElementById('canvas'), options);
+</script>

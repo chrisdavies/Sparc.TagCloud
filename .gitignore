@@ -10,3 +10,7 @@ deploy/*
 *.suo
 *.cache
 *.old
+
+.vs
+
+/.idea/.idea.TagCloud.Core/.idea/workspace.xml

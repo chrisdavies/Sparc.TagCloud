@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace WebExample.Properties {
+namespace TagCloud.Core {
     using System;
     
     
@@ -39,7 +39,7 @@ namespace WebExample.Properties {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("WebExample.Properties.Resources", typeof(Resources).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("TagCloud.Core.Resources", typeof(Resources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -61,21 +61,82 @@ namespace WebExample.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to      __________________________________________________________________
-        ///
-        ///           Title: The Innocence of Father Brown
-        ///      Creator(s): Chesterton, Gilbert K (1874-1936)
-        ///          Rights: Public Domain
-        ///   CCEL Subjects: All;
-        ///     __________________________________________________________________
-        ///
-        ///   Between the silver ribbon of morning and the green glittering ribbon of
-        ///   sea, the boat touched Harwich and let loose a swarm of folk like flies,
-        ///   among whom the man we must follow was by no mean [rest of string was truncated]&quot;;.
+        ///   Looks up a localized string similar to a
+        ///about
+        ///across
+        ///after
+        ///afterwards
+        ///again
+        ///against
+        ///all
+        ///almost
+        ///alone
+        ///along
+        ///already
+        ///also
+        ///although
+        ///among
+        ///amongst
+        ///amoungst
+        ///amount
+        ///and
+        ///another
+        ///any
+        ///anyhow
+        ///anyone
+        ///anything
+        ///anyway
+        ///around
+        ///as
+        ///at
+        ///back
+        ///be
+        ///because
+        ///become
+        ///becoming
+        ///before
+        ///beforehand
+        ///behind
+        ///being
+        ///below
+        ///beside
+        ///besides
+        ///between
+        ///both
+        ///bottom
+        ///but
+        ///by
+        ///call
+        ///cannot
+        ///cant
+        ///co
+        ///computer
+        ///con
+        ///could
+        ///couldnt
+        ///cry
+        ///de
+        ///describe
+        ///down
+        ///due
+        ///during
+        ///each
+        ///eg
+        ///eight
+        ///either
+        ///eleven
+        ///else
+        ///elsewhere
+        ///empty
+        ///enough
+        ///etc
+        ///even
+        ///ever
+        ///e [rest of string was truncated]&quot;;.
         /// </summary>
-        internal static string CloudInput {
+        internal static string en_US_stop {
             get {
-                return ResourceManager.GetString("CloudInput", resourceCulture);
+                return ResourceManager.GetString("en_US_stop", resourceCulture);
             }
         }
     }
