@@ -46,17 +46,17 @@
             Dictionary<string, int> dict)
         {
             var total = Math.Min(setting.MaxCloudSize, dict.Count);
-            var div = Math.Max(1, total / setting.NumCategories);
+            var div   = Math.Max(1, total / setting.NumCategories);
             var index = 0;
 
             return dict.OrderByDescending(p => p.Value)
-                .Where(p => !setting.StopWords.Contains(p.Key))
-                .Take(setting.MaxCloudSize)
-                .Select(p => new TagCloudTag()
+               .Where(p => !setting.StopWords.Contains(p.Key))
+               .Take(setting.MaxCloudSize)
+               .Select(p => new TagCloudTag()
                 {
-                    Text = p.Key.Replace('+', ' '),
-                    Count = p.Value,
-                    Category = (index++)/div
+                    Text     = p.Key.Replace('+', ' '),
+                    Count    = p.Value,
+                    Category = (index++) /div
                 });
         }
 

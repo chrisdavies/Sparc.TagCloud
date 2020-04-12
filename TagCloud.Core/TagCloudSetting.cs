@@ -13,7 +13,7 @@ namespace Sparc.TagCloud
     public class TagCloudSetting
     {
         private static Regex defaultWordFinder = new Regex(@"[\w\']+", RegexOptions.Compiled);
-        private static Lemmatizer defaultLemmatizer = new LemmatizerPrebuiltCompact(LanguagePrebuilt.English);
+        private static LemmatizerPrebuilt defaultLemmatizer = new LemmatizerPrebuiltFull(LanguagePrebuilt.English);
         private static HashSet<string> defaultStopWords = LoadStopWords();
 
         /// <summary>
