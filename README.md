@@ -1,13 +1,26 @@
-#Sparc.TagCloud - A TagCloud library for .NET
+﻿# Sparc.TagCloud.Core - A TagCloud library for .NET Core
+
+This library is a port of the original [Sparc.TagCloud](https://github.com/chrisdavies/Sparc.TagCloud) to .NET Core which was written by [Chris Davies](https://github.com/chrisdavies).
+
+The web example has been updated to use [ASP.Net Core Razor Pages](https://docs.microsoft.com/en-us/aspnet/core/razor-pages/?view=aspnetcore-3.1&tabs=visual-studio) and the [wordcloud2.js](https://wordcloud2-js.timdream.org/) from [Tim Dream](https://timdream.org/).
+
+
+<img src="example.jpg" alt="ASP.NET MVC Tag Cloud" />
+
+Chris' original readme is as follows:
+
+---------------
+
+# Sparc.TagCloud - A TagCloud library for .NET
 The TagCloud library is a simple tag-cloud library for .NET.  It consumes a set of strings and produces a set of tag objects.  Each tag object contains the tag's text or phrase, the number of times that phrase occurred inside of the set of strings, and the tag's category.
 
-##Lemmatizer
+## Lemmatizer
 This library uses the wonderful LemmaGen library to lemmatize the analyzed text.  This means that words will be reduced to their bases (e.g. "cat" and "cats") will show up in the tag-cloud simply as "cat".  (The LemmaGen library can be found here: http://lemmatise.ijs.si/Software/Version3).
 
-##Tag Categories
+## Tag Categories
 The category is simply a mechanism for grouping tags.  The library defaults to 10 category types.  So, given a set of 100 words, the 10 most frequently occuring would be category 0.  The next 10 most frequently occuring words would be category 1, etc.  This categorization allows one to easily cluster tags for a nice visual effect.  (See the ASP.NET MVC example.)
 
-##Examples
+## Examples
 Below is a simple code example that analyzes a set of blogposts and returns a tag-cloud.
 
 
